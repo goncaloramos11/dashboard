@@ -9,33 +9,46 @@
     <body>
         <div class="container">
             <div class="side-nav">
-                <div class="title">
-                    Dashboard
-                </div>
+                <div class="title"> <img class="icon-dashboard" src="icons/view-dashboard.svg" alt="Dashboard">Dashboard</div>
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><img class="icon-side" src="icons/home.svg">Home</li>
+                    <li><img class="icon-side" src="icons/account.svg">Profile</li>
+                    <li><img class="icon-side" src="icons/message.svg">Messages</li>
+                    <li><img class="icon-side" src="icons/history.svg">History</li>
+                    <li><img class="icon-side" src="icons/calendar-check.svg">Tasks</li>
+                    <li><img class="icon-side" src="icons/account-group.svg">Communities</li>
                 </ul>
 
                 <ul>
-                    <li>Setting</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><img class="icon-side" src="icons/cog.svg">Setting</li>
+                    <li><img class="icon-side" src="icons/help.svg">Support</li>
+                    <li><img class="icon-side" src="icons/shield-check.svg">Privacy</li>
                 </ul>
             </div>
 
             <div class="header">
                 <div class="primary-header">
-                    <input>
-                    <div class="profile">Gonçalo Ramos</div>
+                    <div class="search">
+                        <label for="search"><img class="icon-header" src="icons/magnify.svg" alt="Search"></label>
+                        <input type="search" id="search" name="search">                
+                    </div>
+
+                    <div class="profile">
+                        <img class="icon-header" src="icons/bell-ring.svg" alt="Notifications">
+                        <img class="profile-logo" src="icons/lelouch.jpg">
+                        <span>Lelouch vi Britannia</span>
+                    </div>
                 </div>
 
                 <div class="sub-header">
-                    <div class="greetings">Hi, there Gonçalo Ramos</div>
+                    <div class="left">
+                        <img class="profile-logo icon-greeting" src="icons/lelouch.jpg">
+                        <div class="greetings">
+                            <span class="smaller">Hi there,</span>
+                            <span>Lelouch vi Britannia (@lelouch)</span>
+                        </div>
+                    </div>
+
 
                     <ul>
                         <li>New</li>
@@ -48,35 +61,163 @@
 
 
             <div class="content">
-                Your Projects
-                <div class="cards">
-                    <div class="card">a</div>
-                    <div class="card">a</div>
-                    <div class="card">a</div>
-                    <div class="card">a</div>
-                    <div class="card">a</div>
-                    <div class="card">a</div>
+                <div class="main-content">
+                    <span>Your Projects</span>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="yellow"></div>
+                            <span>Super Cool Project</span>
+                            <p>Sed tempus ut lacus ut scelerisque.
+                                Suspendisse sollicitudin nibh erat, id
+                                facilisis felis accumsan nec.
+                            </p>
+                            <ul>
+                                <li><img class="icon-header" src="icons/star-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/eye-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/share-variant-outline.svg" alt=""></li> 
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <div class="yellow"></div>
+                            <span>Less Cool Project</span>
+                            <p>Nullam condimentum ipsum ut lecuts nehicula
+                                consectur. QUisque sed dolor tincidunt,
+                                consectetur sapien et, facilisis dolor. Duis sem
+                                parus, dignissim ut sapien in, varius
+                                pallentesque lacus.
+                            </p>
+                            <ul>
+                                <li><img class="icon-header" src="icons/star-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/eye-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/share-variant-outline.svg" alt=""></li> 
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <div class="yellow"></div>
+                            <span>Impossible App</span>
+                            <p>In hac habitasse platea dictumst. Vivamus
+                                dictum rutrum arcu, a placerat velit sagittis
+                                id.
+                            </p>
+                            <ul>
+                                <li><img class="icon-header" src="icons/star-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/eye-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/share-variant-outline.svg" alt=""></li> 
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <div class="yellow"></div>
+                            <span>Easy Peasy App</span>
+                            <p>Etiam cursus eros ac efficitur fringilla.
+                                Vestibulum dignissim urna eget accumsan
+                                aliquam. Curabitur dignissim nisi in tortor
+                                commodo, ac bibendum magna tincidunt.
+                            </p>
+                            <ul>
+                                <li><img class="icon-header" src="icons/star-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/eye-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/share-variant-outline.svg" alt=""></li> 
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <div class="yellow"></div>
+                            <span>Ad Blocker</span>
+                            <p>Quise eget rutrum nisl. Nam augue
+                                justo, cursus vitae metus vel, pharetra
+                                hendrerit felis. Aliquam sed malesuada
+                                eros.
+                            </p>
+                            <ul>
+                                <li><img class="icon-header" src="icons/star-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/eye-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/share-variant-outline.svg" alt=""></li> 
+                            </ul>
+                            
+                        </div>
+                        <div class="card">
+                            <div class="yellow"></div>
+                            <span>Money Maker</span>
+                            <p>Praesent convallis, libero quis congue
+                                elementum, nunc ante faucibus sapien, ac 
+                                scelerisque tortor purus sit amet ex.
+                                Pellentesque mollis nec sem vel aliquam.
+                            </p>
+                            <ul>
+                                <li><img class="icon-header" src="icons/star-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/eye-plus-outline.svg" alt=""></li>
+                                <li><img class="icon-header" src="icons/share-variant-outline.svg" alt=""></li> 
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="content-side">
-                    Announcements
-                    <div class="announcements">
-                        <ul>
-                            <li>A</li>
-                            <li>B</li>
-                            <li>C</li>
-                        </ul>
-                    </div>
-                    Trending
-                    <div class="trending">
-                        <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                        </ul>
-                    </div>
-
+                
+                <div class="announcements">
+                    <span>Announcements</span>
+                    <ul>
+                        <li>
+                            <span class="smaller">Site Maintenance</span>
+                            <p>
+                                Vestibulum condimentum tellus lacus,
+                                in accumsan elit maximus ac. Donec
+                                hendredit sodales congue...
+                            </p>
+                            
+                        </li>
+                        <li><hr></li>
+                        <li>
+                            <span class="smaller">Community Share Day</span>
+                            <p>
+                                Nam vel lectus tincidunt, retrum nulla
+                                eu, ornare libero. Aliquam dictum
+                                accumsan porttitor...
+                            </p>
+                            
+                        </li>
+                        <li><hr></li>
+                        <li>
+                            <span class="smaller">Updated Privacy Policy</span>
+                            <p>
+                                Phasellus efficitur nisi eget elit
+                                consectetur, eget condimentum ante
+                                auctor.Cras fringilla sagittis sem in 
+                                mattis...
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                         
+                <div class="trending">
+                    <span>Trending</span>  
+                    <ul>
+                        <li>
+                            <img class="profile-logo" src="icons/CC.jpg" alt="C.C">
+                            <div class="author">
+                                <span>@c.c</span>
+                                <p>Lelouch companion</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="profile-logo" src="icons/suzaku.jpg" alt="Suzaku">
+                            <div class="author">
+                                <span>@suzaku</span>
+                                <p>Lelouch enemy</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="profile-logo" src="icons/kallen.jpg" alt="Kallen">
+                            <div class="author">
+                                <span>@kallen</span>
+                                <p>Lelouch subordinate</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="profile-logo" src="icons/shirley.jpg" alt="Shirley">
+                            <div class="author">
+                                <span>@shirley</span>
+                                <p>Lelouch lover</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
